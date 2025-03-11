@@ -8,7 +8,12 @@
 3. Explain the concept of inheritance with a simple example.
     a. Making new boxes that inherit things from parent boxes. Like how you might inherit traits from your parents. 
 4. What is method overriding and how does it differ from method overloading?
+    a. Method overriding a child class creates its own version of a method that already exists in a parent class.
+    (i.e, Parent class Animal and Child class Dog have the same method makeSound() but dogs version makes it bark instead)
+    While overriding replaces and inherited method, overloading creates multiple versions of a method that do similar things but with different inputs.
 5. What is encapsulation and why is it important?
+    a. Encapsulation essentially bundles Methods and Properties within a Class, this protects data from accidental modification, make modifications easier, and primarily it hides user data so they can only see what the need to.
+    For instance a BankAccount class may hide your balence internally only allowing changes through deposit() and withdraw() methods.
 6. Explain the difference between "is-a" and "has-a" relationships in OOP.
 7. What is polymorphism and how can it be implemented?
 8. What is an abstract class and how does it differ from an interface?
