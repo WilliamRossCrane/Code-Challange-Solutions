@@ -15,7 +15,21 @@
     a. Encapsulation essentially bundles Methods and Properties within a Class, this protects data from accidental modification, make modifications easier, and primarily it hides user data so they can only see what the need to.
     For instance a BankAccount class may hide your balence internally only allowing changes through deposit() and withdraw() methods.
 6. Explain the difference between "is-a" and "has-a" relationships in OOP.
+    a. Is-A: Represents that one thing is type of another thing, implemented using inheritence (Difference uses Inheritence)
+       Has-A: That one thing has another thing as a part or property, implemented using object references (Differnece uses Composition)
 7. What is polymorphism and how can it be implemented?
+    a. Polymorphism is when objects of different classes can respond to the same method in there own unique way
+            class Animal {
+                void makeSound() {system.out.printin("???");}
+            }
+
+            class Dog extends Animal {
+                void makeSound() {system.out.printin("Woof");}
+            }
+
+            class Cat extends Animal {
+                void makeSound() {system.out.printin("Meow");}
+            }
 8. What is an abstract class and how does it differ from an interface?
 9. What are access modifiers and why are they used?
 10. Explain the concept of constructor overloading.
