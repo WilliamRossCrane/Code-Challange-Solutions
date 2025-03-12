@@ -31,7 +31,10 @@
                 void makeSound() {system.out.printin("Meow");}
             }
 8. What is an abstract class and how does it differ from an interface?
+    a. Abstract Class: A partially built class, It cannot be instantiated on its own nand is designed to be subclassed by other classes
+    It differs from an interface as it can have methods with code and variables while interfaces only contain method signatures
 9. What are access modifiers and why are they used?
+    a. Access modifiers are essentially like privacy settings in OOP there are four public (everyone everywhere), protected (only classes in the same package or subclass can access), default (Only classes in the same package) and private (same class). Its used for security purposes ad encapsulation (clarity).
 10. Explain the concept of constructor overloading.
 11. What is the purpose of the "super" keyword?
 12. What is the difference between shallow copy and deep copy?
