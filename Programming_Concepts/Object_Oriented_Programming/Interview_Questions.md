@@ -36,7 +36,23 @@
 9. What are access modifiers and why are they used?
     a. Access modifiers are essentially like privacy settings in OOP there are four public (everyone everywhere), protected (only classes in the same package or subclass can access), default (Only classes in the same package) and private (same class). Its used for security purposes ad encapsulation (clarity).
 10. Explain the concept of constructor overloading.
+    a. This is a coding principle that allows classes to have multiple constructors with different parametres, it allows flexibility for developers as classes can be initalised in multiple ways.
+
+    public class Student {
+    private String name;
+    private int age;
+    private String studentId;
+    private double gpa;
+    
+    // No-argument constructor
+    public Student() {
+        this.name = "Unknown";
+        this.age = 0;
+        this.studentId = "N/A";
+        this.gpa = 0.0;
+    }
 11. What is the purpose of the "super" keyword?
+    a. The super keyword is essentially a way for the sub class to reference the parent class, maintaining inheritence and allows to leverage the parent class functionality while extending or modifying it.
 12. What is the difference between shallow copy and deep copy?
 13. What is a static method and when should you use one?
 14. Explain the concept of composition in OOP.
