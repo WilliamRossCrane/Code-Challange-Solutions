@@ -54,6 +54,14 @@
 11. What is the purpose of the "super" keyword?
     a. The super keyword is essentially a way for the sub class to reference the parent class, maintaining inheritence and allows to leverage the parent class functionality while extending or modifying it.
 12. What is the difference between shallow copy and deep copy?
+    a. Use shallow copy if you don’t need to modify nested objects separately. Use deep copy if you need a completely independent duplicate.
 13. What is a static method and when should you use one?
+    a. A static method is a method that belongs to a class rather than an instance of the class. This means you can call it without creating an object of the class.
+        class MathUtils:
+            @staticmethod
+                def add(a, b):
+        return a + b
+        
+        result = MathUtils.add(5, 3)  # Output: 8
 14. Explain the concept of composition in OOP.
 15. What are design patterns and why are they important in OOP?
