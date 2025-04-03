@@ -64,4 +64,6 @@
         
         result = MathUtils.add(5, 3)  # Output: 8
 14. Explain the concept of composition in OOP.
+    a. Complex objects are built together by combining similar objects, creating a has-a relationship rather than inheriting properties and behaviours.
 15. What are design patterns and why are they important in OOP?
+    a. Design patterns are reusable solutions for common probles in software design particularly in OOP acting as blueprints for solving reaccurding challenges. 
